@@ -11,7 +11,7 @@ const Weather = () => {
 
       {WeatherForecast[cityName].map((weather, index) => {
         return (
-          <div key={index}>
+          <div  key={index}>
             <p>{weather.day}</p>
             <p>{weather.temperature}</p>
             <p>{weather.description}</p>
