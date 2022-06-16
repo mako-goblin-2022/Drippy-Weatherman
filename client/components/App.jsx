@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
+import { Route, Routes } from 'react-router-dom'
 import Navbar from './Navbar'
 import Weather from './Weather'
 
@@ -6,8 +7,10 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Weather /> 
-      <h1>App display here</h1>
+
+      <Routes>
+        <Route path={`/:cityName`} element={<Weather />} />
+      </Routes>
     </>
   )
 }

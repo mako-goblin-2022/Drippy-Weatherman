@@ -1,5 +1,5 @@
 export default {
-  HawkesBay: [
+  Auckland: [
     {
       day: 'Wednesday',
       temperature: '37C',
@@ -33,28 +33,28 @@ export default {
     {
       day: 'Wednesday',
       temperature: '37C',
-      description: 'Sunshine all day!',
+      description: 'rain all day!',
       emoji: '👨‍🎤',
     },
 
     {
       day: 'Thursday',
       temperature: '37C',
-      description: 'Sunshine all day!',
+      description: 'rain all day!',
       emoji: '👨‍🎤',
     },
 
     {
       day: 'Saturday',
       temperature: '37C',
-      description: 'Sunshine all day!',
+      description: 'rain all day!',
       emoji: '👨‍🎤',
     },
 
     {
       day: 'Sunday',
       temperature: '37C',
-      description: 'Sunshine all day!',
+      description: 'rain all day!',
       emoji: '👨‍🎤',
     },
   ],
@@ -63,28 +63,28 @@ export default {
     {
       day: 'Wednesday',
       temperature: '37C',
-      description: 'Sunshine all day!',
+      description: 'snow all day!',
       emoji: '👨‍🎤',
     },
 
     {
       day: 'Thursday',
       temperature: '37C',
-      description: 'Sunshine all day!',
+      description: 'snow all day!',
       emoji: '👨‍🎤',
     },
 
     {
       day: 'Saturday',
       temperature: '37C',
-      description: 'Sunshine all day!',
+      description: 'snow all day!',
       emoji: '👨‍🎤',
     },
 
     {
       day: 'Sunday',
       temperature: '37C',
-      description: 'Sunshine all day!',
+      description: 'snow all day!',
       emoji: '👨‍🎤',
     },
   ],
