@@ -14,7 +14,7 @@ const Navbar = () => {
               className=" nav navbar-nav navbar-center container-fluid navbar-header navbar-brand mb-0 h1"
               key={index}
             >
-              <Link className="navTest" to={`/${city}`}>
+              <Link className="navTest" role={`link`} to={`/${city}`}>
                 {city}
               </Link>
             </div>
