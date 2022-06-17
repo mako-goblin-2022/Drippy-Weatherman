@@ -7,18 +7,22 @@ const Weather = () => {
 
   return (
     <>
-      <div>{cityName}</div>
-
-      {WeatherForecast[cityName].map((weather, index) => {
-        return (
-          <div  key={index}>
-            <p>{weather.day}</p>
-            <p>{weather.temperature}</p>
-            <p>{weather.description}</p>
-            <p>{weather.emoji}</p>
-          </div>
-        )
-      })}
+      <img src="./images/mountains" alt="" />
+      <div className="container ">
+        <h1>{cityName}</h1>
+        <div className="">
+          {WeatherForecast[cityName].map((weather, index) => {
+            return (
+              <div className="display" key={index}>
+                <h2>{weather.day}</h2>
+                <h5>{weather.temperature}℃</h5>
+                <h5>{weather.description}</h5>
+                <h1>{weather.emoji}</h1>
+              </div>
+            )
+          })}
+        </div>
+      </div>
     </>
   )
 }

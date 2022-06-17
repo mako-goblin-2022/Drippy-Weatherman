@@ -7,10 +7,13 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav>
+      <nav className="navbar navbar-light ">
         {cityNames.map((city, index) => {
           return (
-            <div key={index}>
+            <div
+              className="nav navbar-nav navbar-center container-fluid navbar-header navbar-brand mb-0 h1 d-flex w-50 order-0 "
+              key={index}
+            >
               <Link to={`/${city}`}>{city}</Link>
             </div>
           )

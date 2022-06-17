@@ -1,16 +1,22 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, useLocation } from 'react-router-dom'
 import Navbar from './Navbar'
 import Weather from './Weather'
 
 const App = () => {
+  const location = useLocation()
+  console.log(location)
+  const city = location.pathname.substring(1)
+
   return (
     <>
-      <Navbar />
+      <div className={city}>
+        <Navbar />
 
-      <Routes>
-        <Route path={`/:cityName`} element={<Weather />} />
-      </Routes>
+        <Routes>
+          <Route path={`/:cityName`} element={<Weather />} />
+        </Routes>
+      </div>
     </>
   )
 }

@@ -2,28 +2,29 @@ export default {
   Auckland: [
     {
       day: 'Wednesday',
-      temperature: '21C',
-      description: 'Sunshine all day!',
-      emoji: '🌞🌥️🌥️',
+      temperature: '23',
+      description:
+        'Freezing cold every hour for 10min then returns to hot and humid',
+      emoji: '🌞  ',
     },
 
     {
       day: 'Thursday',
-      temperature: '22C',
+      temperature: '3',
       description: 'Sunshine with cloudy skies!',
       emoji: '🌥️🌞🌥️',
     },
 
     {
       day: 'Saturday',
-      temperature: '18C',
+      temperature: '18',
       description: 'Drippy wet!',
       emoji: '☔🌦️🌦️',
     },
 
     {
       day: 'Sunday',
-      temperature: '19C',
+      temperature: '19',
       description: 'Sunshine with a breeze!',
       emoji: '☔🌦️🌦️',
     },
@@ -32,58 +33,58 @@ export default {
   Wellington: [
     {
       day: 'Wednesday',
-      temperature: '11C',
-      description: 'Windy with some rain showers!',
-      emoji: '🌦️🌦️☔',
+      temperature: '11',
+      description: 'Windy',
+      emoji: '🌬🌊😕',
     },
 
     {
       day: 'Thursday',
-      temperature: '15C',
-      description: 'Slippy Thursday!',
-      emoji: '🌦️🌦️☔',
+      temperature: '15',
+      description: 'Windy and rainy',
+      emoji: '🌪💦😩',
     },
 
     {
       day: 'Saturday',
-      temperature: '12C',
-      description: 'Drippy Saturday!',
-      emoji: '🌦️☔🌦️',
+      temperature: '12',
+      description: `Basically a tornado, pouring with rain`,
+      emoji: '🫣🌪⛈🌪⛈🌪⛈🌪⛈😵',
     },
 
     {
       day: 'Sunday',
-      temperature: '12C',
-      description: 'Just Moist!',
-      emoji: '🌦️☔🌦️',
+      temperature: '12',
+      description: 'YOU HAVE ONE DAY OF GOOD WEATHER GET OUTSIDE',
+      emoji: '🌞🌻🌝',
     },
   ],
 
   Queenstown: [
     {
       day: 'Wednesday',
-      temperature: '-4C',
-      description: 'Grrr!',
-      emoji: '❄️⛄',
+      temperature: '-4',
+      description: `**SNOW ALERT** Crank the heatpump!`,
+      emoji: '❄️⛄🥶',
     },
 
     {
       day: 'Thursday',
-      temperature: '-10C',
-      description: 'Time for Ice cream!',
-      emoji: '🍦⛄❄️',
+      temperature: '1',
+      description: 'Horrible. Absolutely disgusting. Go see a movie',
+      emoji: '⛈🏡🎞',
     },
 
     {
       day: 'Saturday',
-      temperature: '-2C',
-      description: 'Elsa!',
-      emoji: '❄️⛄🍦',
+      temperature: '-2',
+      description: 'Stunner. Take the kids out for brunch',
+      emoji: '🌞👨‍👩‍👧‍👧🥞',
     },
 
     {
       day: 'Sunday',
-      temperature: '-5C',
+      temperature: '-5',
       description: 'Frozen!',
       emoji: '⛄❄️🍦',
     },
