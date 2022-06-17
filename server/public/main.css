@@ -15,21 +15,20 @@ nav {
   text-decoration: none;
   font-size: 26px;
   text-decoration: none;
- }
- 
- .navTest:hover {
- 
- color: white;
- border-radius: 20px;
- text-decoration: none;
- }
+}
+
+.navTest:hover {
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+}
 
 .Queenstown {
   width: 100%;
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('./images/qtown.jpg');
+  background-image: url('./images/qtown-min.jpg');
 }
 
 .Auckland {
@@ -37,7 +36,7 @@ nav {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('./images/auckland1.jpg');
+  background-image: url('./images/auckland1-min.jpg');
 }
 
 .Wellington {
@@ -45,7 +44,7 @@ nav {
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('./images/wellington.jpg');
+  background-image: url('./images/wellington-min.jpg');
 }
 
 .container h1 {
