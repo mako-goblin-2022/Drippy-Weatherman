@@ -3,9 +3,26 @@ body {
 }
 
 nav {
-  background-color: rgba(255, 255, 255, 0.294);
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.642);
   height: 60px;
+  text-decoration: none;
 }
+
+.navTest {
+  height: 65px;
+  color: black;
+  text-decoration: none;
+  font-size: 26px;
+  text-decoration: none;
+ }
+ 
+ .navTest:hover {
+ 
+ color: white;
+ border-radius: 20px;
+ text-decoration: none;
+ }
 
 .Queenstown {
   width: 100%;
@@ -34,7 +51,8 @@ nav {
 .container h1 {
   font-size: 55px;
   font-weight: 800;
-  text-shadow: 2px 2px 5px rgb(255, 252, 252);
+  text-shadow: 2px 2px 10px rgb(255, 252, 252);
+  text-align: center;
   margin-bottom: 5px;
 }
 

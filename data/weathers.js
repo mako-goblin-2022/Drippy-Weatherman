@@ -4,29 +4,29 @@ export default {
       day: 'Wednesday',
       temperature: '23',
       description:
-        'Freezing cold every hour for 10min then returns to hot and humid',
-      emoji: '🌞  ',
+        'rain, fine, rain, fine, rain, fine. The usual.',
+      emoji: '🌞 ☔️🌞 ☔️🌞 ☔️ ',
     },
 
     {
       day: 'Thursday',
       temperature: '3',
-      description: 'Sunshine with cloudy skies!',
-      emoji: '🌥️🌞🌥️',
+      description: '4-seasons in one day',
+      emoji: '❄️🌞☔️🌈⚡️',
     },
 
     {
       day: 'Saturday',
-      temperature: '18',
-      description: 'Drippy wet!',
-      emoji: '☔🌦️🌦️',
+      temperature: '26',
+      description: `Oh boy you're in for a humid one. Stay hydrated folks`,
+      emoji: '🌦️🫠🚰',
     },
 
     {
       day: 'Sunday',
-      temperature: '19',
-      description: 'Sunshine with a breeze!',
-      emoji: '☔🌦️🌦️',
+      temperature: '6',
+      description: 'Cloudy. Good day to mow the lawns',
+      emoji: '🌦️🐝',
     },
   ],
 
@@ -55,7 +55,7 @@ export default {
     {
       day: 'Sunday',
       temperature: '12',
-      description: 'YOU HAVE ONE DAY OF GOOD WEATHER GET OUTSIDE',
+      description: `YOU HAVE ONE DAY OF GOOD WEATHER, GET OUTSIDE`,
       emoji: '🌞🌻🌝',
     },
   ],
@@ -70,7 +70,7 @@ export default {
 
     {
       day: 'Thursday',
-      temperature: '1',
+      temperature: '-39',
       description: 'Horrible. Absolutely disgusting. Go see a movie',
       emoji: '⛈🏡🎞',
     },
@@ -85,8 +85,8 @@ export default {
     {
       day: 'Sunday',
       temperature: '-5',
-      description: 'Frozen!',
-      emoji: '⛄❄️🍦',
+      description: 'Beauty! Hit the slopes!!',
+      emoji: '⛄❄️🎿⛷🏂',
     },
   ],
 }
